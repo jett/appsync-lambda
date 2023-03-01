@@ -1,14 +1,13 @@
-# Welcome to your CDK TypeScript project
+A quick experiment on an AppSync-based GraphQL API using DynamoDB as datastore.
 
-This is a blank project for CDK development with TypeScript.
+cdk init app --language typescript
+npm i @aws-cdk/aws-dynamodb
+npm i @aws-cdk/aws-appsync
+npm i @aws-cdk/aws-lambda
+npm i @aws-cdk/aws-dynamodb
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+npm run build
+cdk diff
 
-## Useful commands
+cdk deploy
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
