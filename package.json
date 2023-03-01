@@ -1,0 +1,29 @@
+{
+  "name": "appsync-lambda",
+  "version": "0.1.0",
+  "bin": {
+    "appsync-lambda": "bin/appsync-lambda.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assertions": "1.181.1",
+    "@types/babel__traverse": "7.18.2",
+    "@types/prettier": "2.6.0",
+    "@types/jest": "^27.5.0",
+    "@types/node": "10.17.27",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "aws-cdk": "1.181.1",
+    "ts-node": "^10.8.1",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.181.1",
+    "source-map-support": "^0.5.21"
+  }
+}
